@@ -118,3 +118,14 @@ def get_one_prediction(img, model):
 
 def get_set_prediction(data, model):
     return model.predict(np.expand_dims(data,-1))
+
+def area(masks):
+    return [x.sum() for x in masks]
+    
+def get_metrics(masks, pred):
+    prods = [x*y[:,:,0] for x,y in zip(np.array(masks),pred)]
+    areas = [(x.sum(), y.sum(), z.sum()) for x,y,z in zip(np.array(masks), prods, pred)]
+    areas = pd.DataFrame(areas, columns = ['Actual','Common', 'Predicted'])
+    areas['Dice_coeff'] = 2*areas['Common']/(areas['Predicted'] + areas['Actual'])
+    areas['Ratio'] = areas['Common']/areas['Actual']
+    return areas
