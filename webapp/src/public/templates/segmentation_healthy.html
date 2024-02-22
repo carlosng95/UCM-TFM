@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>TFM: Detection and Segmentation of Brain Tumors</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/">
+            <h1><span>TFM</span><br>Detection and Segmentation of Brain Tumors</h1>
+        </a>
+        <h3>Universidad Complutense de Madrid</h3>
+    </div>
+
+    <div class="container">
+        <img src="data:image/jpg;base64,{{ image }}">
+    </div>
+
+    <h2>{{condition}}</h2>
+    <h2>There is not tumor to segment</h2>
+
+    <div class="botones">
+        <form id="index" action="/" method="get">
+            <button type="submit">Upload new image</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h4 class="author">Author: Carlos Gordillo Olivera</h4>
+        <h4 class="year">2024</h4>
+    </div>
+</body>
+
+</html>

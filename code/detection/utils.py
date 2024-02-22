@@ -72,19 +72,3 @@ def get_metrics(model, X_train, X_test, y_train, y_test, roc = None, nn = None, 
         plt.show()
     axs[0].set_title('Train set')  
     axs[1].set_title('Test set')
-
-
-def create_mask(A, width, height):
-    A = list(map(int, A))
-    a, b, w, h = A[0], A[1], A[2], A[3]
-    mask = np.zeros((height, width))  
-    mask[b:b+h, a:a+w] = 1  
-    return mask
-
-def plot_image(data, masks, idx):
-    imagen = data[idx]
-    fig, ax = plt.subplots(figsize = (10,10))
-    ax.imshow(imagen, cmap='gray')
-    ax.imshow(masks[idx], alpha=0.3, origin='lower')
-    plt.show()
-    
