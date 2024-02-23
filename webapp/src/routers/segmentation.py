@@ -1,10 +1,7 @@
-from typing import List, Optional
-from fastapi import status,HTTPException, Depends, APIRouter, Response,File, UploadFile, Request
-from fastapi.responses import JSONResponse
-from process.segmentation.processing.segmentation_preprocessing import dice_loss, dice_coef, apply_mask
+from fastapi import APIRouter,Request
+from algorithms.segmentation.processing.segmentation_preprocessing import dice_loss, dice_coef, apply_mask
 from fastapi.templating import Jinja2Templates
 import os 
-import numpy as np
 import keras
 import cv2
 import base64
@@ -23,7 +20,7 @@ router = APIRouter(
 
 @router.post("/")
 def segmentation(request: Request):
-        model_path = os.path.join(os.path.dirname(__file__), '..', 'process', 'segmentation', 'models', 'seg_cnn_1.h5')
+        model_path = os.path.join(os.path.dirname(__file__), '..', 'algorithms', 'segmentation', 'models', 'seg_cnn_1.h5')
         paths = os.path.join(os.path.dirname(__file__), '..', 'public', 'img','tumors')
         images_ = [x.split('timestamp')[0] for x in os.listdir(paths)]
         if(len(images_) > 0):
@@ -50,7 +47,6 @@ def segmentation(request: Request):
             images = max(images)
             idx = files_.index(images)
             img_path = os.path.join(os.path.dirname(__file__), '..', 'public', 'img', files[idx])
-            print('img_path',img_path)
             with open(img_path, 'rb') as f:
                 contents = f.read()
             base64_encoded_image = base64.b64encode(contents).decode("utf-8")

@@ -1,10 +1,11 @@
 import warnings
 warnings.filterwarnings("ignore")
-from fastapi import FastAPI, File, UploadFile, Request, Response
-from fastapi.responses import JSONResponse,HTMLResponse, FileResponse
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from routers import image, detection, segmentation
 from fastapi.templating import Jinja2Templates
+from fastapi.middleware.cors import CORSMiddleware
 import shutil
 import os
 import uvicorn
@@ -15,10 +16,19 @@ app = FastAPI(
     version = '1.0.0'
 )
 
+origins = ['*']
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins = origins,
+    allow_credentials = True,
+    allow_methods = ['*'],
+    allow_headers = ['*']
+)
+
 templates = Jinja2Templates(directory = './public/templates')
 
 app.mount('/static',StaticFiles(directory = './public/static'), name = 'static')
-# app.mount('/img', StaticFiles(directory = './public/img'), name = 'img')
 
 @app.get('/', response_class=HTMLResponse)
 def root():
@@ -38,4 +48,4 @@ app.include_router(segmentation.router)
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=3000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

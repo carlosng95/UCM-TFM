@@ -40,5 +40,5 @@ def apply_mask(path,model):
     mask = cv2.applyColorMap((mask * 255).astype(np.uint8), cv2.COLORMAP_JET)
     img = cv2.merge([img_p, img_p, img_p])*255.0
     mask = mask.astype(img.dtype)
-    final_img = cv2.addWeighted(img, 0.8, mask, 0.2, 0)
+    final_img = cv2.addWeighted(img, 0.7, mask, 0.3, 0)
     return final_img

@@ -1,9 +1,7 @@
-from typing import List, Optional
-from fastapi import status,HTTPException, Depends, APIRouter, Response,File, UploadFile, Request
-from fastapi.responses import JSONResponse,FileResponse 
+from fastapi import  APIRouter,File, UploadFile, Request, HTTPException
+from fastapi.responses import JSONResponse,FileResponse ,RedirectResponse
 from fastapi.templating import Jinja2Templates
 import os 
-import shutil
 from datetime import datetime
 import base64
 import cv2
@@ -39,7 +37,7 @@ async def upload_image(request: Request, file: UploadFile = File(...)):
                 contents = f.read()
         else: 
             pass
-    except Exception:
+    except Exception as e:
         path = './public/static/views/index.html'
         return FileResponse(path, status_code = 200)
 

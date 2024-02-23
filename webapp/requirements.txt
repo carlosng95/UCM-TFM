@@ -1,0 +1,9 @@
+fastapi==0.109.2
+opencv_python==4.6.0.66
+jinja2
+python-multipart
+uvicorn==0.27.1
+keras
+tensorflow
+matplotlib
+qemu
