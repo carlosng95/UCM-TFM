@@ -1,0 +1,78 @@
+\documentclass[12pt, oneside]{book}
+
+% Paquetes necesarios
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{float}
+
+% Configuración de la página
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+
+% Configuración de la carpeta de imágenes
+\graphicspath{{images/}}
+
+% Configuración del formato de los capítulos
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+% Información de la tesis
+\newcommand{\university}{Universidad Complutense de Madrid}
+\newcommand{\facultad}{Facultad de Estudios Estadísticos}
+\newcommand{\master}{Máster Big Data y Data Science}
+\newcommand{\thesisTitle}{Detección y segmentación de tumores cerebrales en imágenes de resonancia magnética con técnicas de Deep Learning}
+\newcommand{\authorName}{MSc. Carlos Gordillo Olivera}
+\newcommand{\thesisYear}{2024}
+
+
+
+% Cambiar nombres en español
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\contentsname}{Índice}
+
+\begin{document}
+
+% Portada
+\begin{titlepage}
+    \centering
+    %\vspace*{2cm}
+    
+    {\LARGE\textbf{\university}\par}
+    %\vspace{0.5cm}
+        {\Large\textbf{\facultad}\par}
+         {\Large\textbf{\master}\par}
+    \vspace{1cm}
+    
+        \includegraphics[width=4.5cm]{images/UCM-Logo.png}
+    \vspace*{1cm}
+    
+    {\huge\textbf{\thesisTitle}\par}
+    \vspace{7cm}
+    
+    {\Large\textbf{\authorName}\par}
+    \vfill
+    
+    {\Large\textbf{\thesisYear}\par}
+    
+\end{titlepage}
+
+% Índice
+\tableofcontents
+
+% Capítulos
+%\chapter{Introducción}
+\input{chapters/introduccion/introduccion.tex}
+
+
+\input{chapters/deteccion/deteccion.tex}
+
+\input{chapters/segmentacion/segmentacion.tex}
+
+\input{chapters/api/api.tex}
+
+% Bibliografía
+\bibliography{bibliografia}
+
+\end{document}

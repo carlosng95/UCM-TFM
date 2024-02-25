@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "introduccion.dvi" "introduccion.pdf" "introduccion" 0
+  "introduccion.dvi" 0 -1 0 "latex"
+  (generated)
+  "introduccion.pdf"
+["latex"] 0 "introduccion.tex" "introduccion.dvi" "introduccion" 0
+  "introduccion.aux" 1708887757 32 3985256e7290058c681f74d7a3565a19 ""
+  "introduccion.tex" 0 -1 0 ""
+  (generated)
+  "introduccion.dvi"
+  "introduccion.log"

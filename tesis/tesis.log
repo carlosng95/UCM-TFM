@@ -1,0 +1,697 @@
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.6)  25 FEB 2024 19:31
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**tesis.tex
+(./tesis.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/carlosgordilloolivera/Librar
+y/texlive/2022/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/carlosgordilloolivera/Librar
+y/texlive/2022/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/carlosgordilloolivera/L
+ibrary/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen137
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box50
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen140
+\ttl@minus=\dimen141
+\ttl@toksa=\toks17
+\titlewidth=\dimen142
+\titlewidthlast=\dimen143
+\titlewidthfirst=\dimen144
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen145
+\captionmargin=\dimen146
+\caption@leftmargin=\dimen147
+\caption@rightmargin=\dimen148
+\caption@width=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count192
+\c@continuedfloat=\count193
+)
+\c@subfigure=\count194
+\c@subtable=\count195
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks18
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count199
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen154
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2022-02-21 v7.00n Hyperref driver for luaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip51
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count272
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks19
+\float@box=\box51
+\@float@everytoks=\toks20
+\@floatcapt=\box52
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks21
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box53
+)
+(./tesis.aux
+
+LaTeX Warning: Label `fig.loss' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen2' multiply defined.
+
+)
+\openout1 = tesis.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count278
+\scratchdimen=\dimen165
+\scratchbox=\box54
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen166
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 35.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count284
+)
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
+ (./tesis.out) (./tesis.out)
+\@outlinefile=\write3
+
+\openout3 = tesis.out
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=441.01773pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-33.0119pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<images/UCM-Logo.png, id=88, 600.3228pt x 678.3744pt>
+File: images/UCM-Logo.png Graphic file (type png)
+<use images/UCM-Logo.png>
+Package luatex.def Info: images/UCM-Logo.png  used on input line 48.
+(luatex.def)             Requested size: 128.0374pt x 144.67798pt.
+[1
+
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/
+UCM-Logo.png>] (./tesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write4
+
+\openout4 = tesis.toc
+ (./chapters/introduccion/introduccion.tex
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
+Capítulo 1.
+<chapters/introduccion/images/normal.jpg, id=125, 485.815pt x 421.575pt>
+File: chapters/introduccion/images/normal.jpg Graphic file (type jpg)
+<use chapters/introduccion/images/normal.jpg>
+Package luatex.def Info: chapters/introduccion/images/normal.jpg  used on input
+ line 24.
+(luatex.def)             Requested size: 148.84245pt x 129.1559pt.
+<chapters/introduccion/images/tumor.jpg, id=126, 948.1824pt x 626.5809pt>
+File: chapters/introduccion/images/tumor.jpg Graphic file (type jpg)
+<use chapters/introduccion/images/tumor.jpg>
+Package luatex.def Info: chapters/introduccion/images/tumor.jpg  used on input 
+line 30.
+(luatex.def)             Requested size: 198.45662pt x 131.1365pt.
+[2
+
+] [3<./chapters/introduccion/images/normal.jpg><./chapters/introduccion/images/t
+umor.jpg>]) (./chapters/deteccion/deteccion.tex [4]
+Capítulo 2.
+<chapters/deteccion/images/clases.png, id=148, 396.48125pt x 262.9825pt>
+File: chapters/deteccion/images/clases.png Graphic file (type png)
+<use chapters/deteccion/images/clases.png>
+Package luatex.def Info: chapters/deteccion/images/clases.png  used on input li
+ne 13.
+(luatex.def)             Requested size: 220.50887pt x 146.26198pt.
+<chapters/deteccion/images/sano1.jpg, id=156, 208.78pt x 242.9075pt>
+File: chapters/deteccion/images/sano1.jpg Graphic file (type jpg)
+<use chapters/deteccion/images/sano1.jpg>
+Package luatex.def Info: chapters/deteccion/images/sano1.jpg  used on input lin
+e 25.
+(luatex.def)             Requested size: 132.30666pt x 153.9406pt.
+
+Underfull \hbox (badness 6575) in paragraph at lines 26--26
+[]\TU/lmr/m/n/10.95 (a) |Ax-ial T2 flair con
+ []
+
+<chapters/deteccion/images/sano2.jpg, id=157, 254.9525pt x 198.7425pt>
+File: chapters/deteccion/images/sano2.jpg Graphic file (type jpg)
+<use chapters/deteccion/images/sano2.jpg>
+Package luatex.def Info: chapters/deteccion/images/sano2.jpg  used on input lin
+e 32.
+(luatex.def)             Requested size: 132.30666pt x 103.14047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]\TU/lmr/m/n/10.95 (b) |Sag-i-tal T2 flair.
+ []
+
+<chapters/deteccion/images/sano3.jpg, id=158, 236.885pt x 236.885pt>
+File: chapters/deteccion/images/sano3.jpg Graphic file (type jpg)
+<use chapters/deteccion/images/sano3.jpg>
+Package luatex.def Info: chapters/deteccion/images/sano3.jpg  used on input lin
+e 39.
+(luatex.def)             Requested size: 132.30666pt x 132.3113pt.
+<chapters/deteccion/images/cancer1.png, id=159, 240.9pt x 301.125pt>
+File: chapters/deteccion/images/cancer1.png Graphic file (type png)
+<use chapters/deteccion/images/cancer1.png>
+Package luatex.def Info: chapters/deteccion/images/cancer1.png  used on input l
+ine 48.
+(luatex.def)             Requested size: 132.30666pt x 165.38492pt.
+<chapters/deteccion/images/cancer2.jpg, id=160, 513.92pt x 513.92pt>
+File: chapters/deteccion/images/cancer2.jpg Graphic file (type jpg)
+<use chapters/deteccion/images/cancer2.jpg>
+Package luatex.def Info: chapters/deteccion/images/cancer2.jpg  used on input l
+ine 55.
+(luatex.def)             Requested size: 132.30666pt x 132.30646pt.
+
+Underfull \hbox (badness 1199) in paragraph at lines 56--56
+[]\TU/lmr/m/n/10.95 (e) |Coro-nal T1 con con-
+ []
+
+<chapters/deteccion/images/cancer3.jpg, id=161, 513.92pt x 513.92pt>
+File: chapters/deteccion/images/cancer3.jpg Graphic file (type jpg)
+<use chapters/deteccion/images/cancer3.jpg>
+Package luatex.def Info: chapters/deteccion/images/cancer3.jpg  used on input l
+ine 62.
+(luatex.def)             Requested size: 132.30666pt x 132.30646pt.
+[5
+
+<./chapters/deteccion/images/clases.png>]
+<chapters/deteccion/images/relaciones.png, id=175, 905.3825pt x 380.42125pt>
+File: chapters/deteccion/images/relaciones.png Graphic file (type png)
+<use chapters/deteccion/images/relaciones.png>
+Package luatex.def Info: chapters/deteccion/images/relaciones.png  used on inpu
+t line 80.
+(luatex.def)             Requested size: 441.01773pt x 185.30513pt.
+ [6<./chapters/deteccion/images/sano1.jpg><./chapters/deteccion/images/sano2.jpg
+><./chapters/deteccion/images/sano3.jpg><./chapters/deteccion/images/cancer1.png
+><./chapters/deteccion/images/cancer2.jpg><./chapters/deteccion/images/cancer3.j
+pg>] [7<./chapters/deteccion/images/relaciones.png>]
+<chapters/deteccion/images/naive.png, id=193, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/naive.png Graphic file (type png)
+<use chapters/deteccion/images/naive.png>
+Package luatex.def Info: chapters/deteccion/images/naive.png  used on input lin
+e 114.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+<chapters/deteccion/images/rf.png, id=196, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/rf.png Graphic file (type png)
+<use chapters/deteccion/images/rf.png>
+Package luatex.def Info: chapters/deteccion/images/rf.png  used on input line 1
+39.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+ [8<./chapters/deteccion/images/naive.png><./chapters/deteccion/images/rf.png>]
+<chapters/deteccion/images/lr.png, id=210, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/lr.png Graphic file (type png)
+<use chapters/deteccion/images/lr.png>
+Package luatex.def Info: chapters/deteccion/images/lr.png  used on input line 1
+67.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+<chapters/deteccion/images/dt.png, id=213, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/dt.png Graphic file (type png)
+<use chapters/deteccion/images/dt.png>
+Package luatex.def Info: chapters/deteccion/images/dt.png  used on input line 1
+93.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+ [9<./chapters/deteccion/images/lr.png><./chapters/deteccion/images/dt.png>]
+<chapters/deteccion/images/knn.png, id=226, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/knn.png Graphic file (type png)
+<use chapters/deteccion/images/knn.png>
+Package luatex.def Info: chapters/deteccion/images/knn.png  used on input line 
+220.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+<chapters/deteccion/images/loss.png, id=229, 1292.83pt x 281.05pt>
+File: chapters/deteccion/images/loss.png Graphic file (type png)
+<use chapters/deteccion/images/loss.png>
+Package luatex.def Info: chapters/deteccion/images/loss.png  used on input line
+ 249.
+(luatex.def)             Requested size: 441.01773pt x 95.87308pt.
+ [10<./chapters/deteccion/images/knn.png>]
+<chapters/deteccion/images/cnn_met.png, id=243, 1263.72125pt x 320.19624pt>
+File: chapters/deteccion/images/cnn_met.png Graphic file (type png)
+<use chapters/deteccion/images/cnn_met.png>
+Package luatex.def Info: chapters/deteccion/images/cnn_met.png  used on input l
+ine 259.
+(luatex.def)             Requested size: 441.01773pt x 111.74301pt.
+)
+(./chapters/segmentacion/segmentacion.tex [11<./chapters/deteccion/images/loss.p
+ng><./chapters/deteccion/images/cnn_met.png>]
+Capítulo 3.
+<chapters/segmentacion/images/mask.png, id=256, 262.9825pt x 252.945pt>
+File: chapters/segmentacion/images/mask.png Graphic file (type png)
+<use chapters/segmentacion/images/mask.png>
+Package luatex.def Info: chapters/segmentacion/images/mask.png  used on input l
+ine 16.
+(luatex.def)             Requested size: 132.30666pt x 127.25955pt.
+<chapters/segmentacion/images/unet.png, id=258, 994.71625pt x 659.46375pt>
+File: chapters/segmentacion/images/unet.png Graphic file (type png)
+<use chapters/segmentacion/images/unet.png>
+Package luatex.def Info: chapters/segmentacion/images/unet.png  used on input l
+ine 39.
+(luatex.def)             Requested size: 308.71106pt x 204.66309pt.
+[12
+
+<./chapters/segmentacion/images/mask.png>]
+<chapters/segmentacion/images/metricas.png, id=267, 1076.02pt x 714.67pt>
+File: chapters/segmentacion/images/metricas.png Graphic file (type png)
+<use chapters/segmentacion/images/metricas.png>
+Package luatex.def Info: chapters/segmentacion/images/metricas.png  used on inp
+ut line 61.
+(luatex.def)             Requested size: 352.81552pt x 234.32603pt.
+ [13<./chapters/segmentacion/images/unet.png>]
+<chapters/segmentacion/images/dice.png, id=277, 1076.02pt x 357.335pt>
+File: chapters/segmentacion/images/dice.png Graphic file (type png)
+<use chapters/segmentacion/images/dice.png>
+Package luatex.def Info: chapters/segmentacion/images/dice.png  used on input l
+ine 73.
+(luatex.def)             Requested size: 396.91325pt x 131.8084pt.
+<chapters/segmentacion/images/mask_train.png, id=279, 649.42625pt x 654.445pt>
+File: chapters/segmentacion/images/mask_train.png Graphic file (type png)
+<use chapters/segmentacion/images/mask_train.png>
+Package luatex.def Info: chapters/segmentacion/images/mask_train.png  used on i
+nput line 84.
+(luatex.def)             Requested size: 176.40439pt x 177.76103pt.
+<chapters/segmentacion/images/mask_pred.png, id=280, 650.43pt x 652.4375pt>
+File: chapters/segmentacion/images/mask_pred.png Graphic file (type png)
+<use chapters/segmentacion/images/mask_pred.png>
+Package luatex.def Info: chapters/segmentacion/images/mask_pred.png  used on in
+put line 91.
+(luatex.def)             Requested size: 176.40439pt x 176.94695pt.
+ [14<./chapters/segmentacion/images/metricas.png><./chapters/segmentacion/images
+/dice.png>]) (./chapters/api/api.tex [15<./chapters/segmentacion/images/mask_tra
+in.png><./chapters/segmentacion/images/mask_pred.png>]
+Capítulo 4.
+<chapters/api/images/home.png, id=298, 1003.75pt x 803.0pt>
+File: chapters/api/images/home.png Graphic file (type png)
+<use chapters/api/images/home.png>
+Package luatex.def Info: chapters/api/images/home.png  used on input line 32.
+(luatex.def)             Requested size: 198.45662pt x 158.75923pt.
+<chapters/api/images/image.png, id=299, 1001.7425pt x 801.99625pt>
+File: chapters/api/images/image.png Graphic file (type png)
+<use chapters/api/images/image.png>
+Package luatex.def Info: chapters/api/images/image.png  used on input line 39.
+(luatex.def)             Requested size: 198.45662pt x 158.87895pt.
+<chapters/api/images/deteccion.png, id=300, 1002.74625pt x 800.9925pt>
+File: chapters/api/images/deteccion.png Graphic file (type png)
+<use chapters/api/images/deteccion.png>
+Package luatex.def Info: chapters/api/images/deteccion.png  used on input line 
+48.
+(luatex.def)             Requested size: 198.45662pt x 158.52122pt.
+<chapters/api/images/segmentacion.png, id=301, 1001.7425pt x 801.99625pt>
+File: chapters/api/images/segmentacion.png Graphic file (type png)
+<use chapters/api/images/segmentacion.png>
+Package luatex.def Info: chapters/api/images/segmentacion.png  used on input li
+ne 55.
+(luatex.def)             Requested size: 198.45662pt x 158.87895pt.
+[16
+
+])
+No file tesis.bbl.
+[17<./chapters/api/images/home.png><./chapters/api/images/image.png><./chapters/
+api/images/deteccion.png><./chapters/api/images/segmentacion.png>]
+(./tesis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: F4A58BA0B698BD2971FFBFCDEEE9CEF4;3468.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 11819 strings out of 477785
+ 100000,552014 words of node,token memory allocated
+ 444 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 54 glue_spec,
+ 6 attribute_list, 1 write nodes
+   avail lists: 2:642,3:232,4:24,5:238,6:65,7:6377,8:45,9:482,10:19,11:557
+ 31895 multiletter control sequences out of 65536+600000
+ 37 fonts using 2925695 bytes
+ 67i,9n,74p,1069b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
+f></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
+.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromanslant12
+-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroma
+n12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmr
+oman12-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b>
+Output written on tesis.pdf (18 pages, 3329913 bytes).
+
+PDF statistics: 374 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 131072)
+ 169 words of extra memory for PDF output out of 10000 (max. 100000000)
+
