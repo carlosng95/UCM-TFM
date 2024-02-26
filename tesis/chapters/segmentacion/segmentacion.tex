@@ -75,28 +75,48 @@ A continuación se procedió a calcular las métricas correspondientes. En este 
         \label{fig.dice}
   \end{figure}
 
-Se observa que en todos los casos, el valor máximo de la distribución está cercano a uno, indicando que el modelo funcionó razonablemente bien. Es notable observar que existen algunos coeficientes menores que uno. Esto se explica considerando que las máscaras usadas como target eran perfectamente rectangulares, mientras que las máscaras predichas por el modelo no lo son, sino que intentan adaptarse al tumor copiando su forma, como se observa en la Fig. \ref{fig.mascaras}. 
+Se observa que en todos los casos, el valor máximo de la distribución está cercano a uno, indicando que el modelo funcionó razonablemente bien. Es notable observar que existen algunos coeficientes menores que uno. Esto se explica considerando que las máscaras usadas como target eran perfectamente rectangulares, mientras que las máscaras predichas por el modelo no lo son, sino que intentan adaptarse al tumor copiando su forma, como se observa en la Fig. \ref{fig.imagenes}. 
+
+En el código subido a Github está el detalle de los cálculos realizados, así como un slider para poder ver las imágenes con sus correspondientes máscaras.
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.4\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{chapters/segmentacion/images/mask_train.png}
-        \caption{Máscara target}
-        \label{fig:imagen1}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/1.png}
+        \caption*{}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{chapters/segmentacion/images/mask_pred.png}
-        \caption{Máscara predicha}
-        \label{fig:imagen2}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/2.png}
+        \caption*{}
     \end{subfigure}
-    \caption{Diferencias entre máscaras}
-    \label{fig.mascaras}
+    \medskip
+    
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/3.png}
+       \caption*{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/4.png}
+        \caption*{}
+    \end{subfigure}
+    \medskip
+    
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/5.png}
+        \caption*{Máscaras target}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{chapters/segmentacion/images/6.png}
+       \caption*{Máscaras predichas}
+    \end{subfigure}
+    \caption{Comparación de máscaras dadas y predichas por el modelo}
+    \label{fig.imagenes}
 \end{figure}
 
-En el código subido a Github está el detalle de los cálculos realizados, así como un slider para poder ver las imágenes con sus correspondientes máscaras.
+
 
 
 

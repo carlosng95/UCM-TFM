@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.6)  25 FEB 2024 19:31
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.6)  25 FEB 2024 21:35
  restricted system commands enabled.
  file:line:error style messages enabled.
 **tesis.tex
@@ -302,18 +302,6 @@ File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
 
 LaTeX Warning: Label `fig.loss' multiply defined.
 
-
-LaTeX Warning: Label `fig:imagen1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:imagen1' multiply defined.
-
-
-LaTeX Warning: Label `fig:imagen2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:imagen2' multiply defined.
-
 )
 \openout1 = tesis.aux
 
@@ -615,39 +603,65 @@ File: chapters/segmentacion/images/dice.png Graphic file (type png)
 Package luatex.def Info: chapters/segmentacion/images/dice.png  used on input l
 ine 73.
 (luatex.def)             Requested size: 396.91325pt x 131.8084pt.
-<chapters/segmentacion/images/mask_train.png, id=279, 649.42625pt x 654.445pt>
-File: chapters/segmentacion/images/mask_train.png Graphic file (type png)
-<use chapters/segmentacion/images/mask_train.png>
-Package luatex.def Info: chapters/segmentacion/images/mask_train.png  used on i
-nput line 84.
-(luatex.def)             Requested size: 176.40439pt x 177.76103pt.
-<chapters/segmentacion/images/mask_pred.png, id=280, 650.43pt x 652.4375pt>
-File: chapters/segmentacion/images/mask_pred.png Graphic file (type png)
-<use chapters/segmentacion/images/mask_pred.png>
-Package luatex.def Info: chapters/segmentacion/images/mask_pred.png  used on in
-put line 91.
-(luatex.def)             Requested size: 176.40439pt x 176.94695pt.
+<chapters/segmentacion/images/1.png, id=279, 652.4375pt x 655.44875pt>
+File: chapters/segmentacion/images/1.png Graphic file (type png)
+<use chapters/segmentacion/images/1.png>
+Package luatex.def Info: chapters/segmentacion/images/1.png  used on input line
+ 85.
+(luatex.def)             Requested size: 198.45662pt x 199.3765pt.
+<chapters/segmentacion/images/2.png, id=280, 650.43pt x 654.445pt>
+File: chapters/segmentacion/images/2.png Graphic file (type png)
+<use chapters/segmentacion/images/2.png>
+Package luatex.def Info: chapters/segmentacion/images/2.png  used on input line
+ 90.
+(luatex.def)             Requested size: 198.45662pt x 199.68033pt.
+<chapters/segmentacion/images/3.png, id=281, 649.42625pt x 653.44125pt>
+File: chapters/segmentacion/images/3.png Graphic file (type png)
+<use chapters/segmentacion/images/3.png>
+Package luatex.def Info: chapters/segmentacion/images/3.png  used on input line
+ 96.
+(luatex.def)             Requested size: 198.45662pt x 199.68315pt.
+<chapters/segmentacion/images/4.png, id=282, 652.4375pt x 654.445pt>
+File: chapters/segmentacion/images/4.png Graphic file (type png)
+<use chapters/segmentacion/images/4.png>
+Package luatex.def Info: chapters/segmentacion/images/4.png  used on input line
+ 101.
+(luatex.def)             Requested size: 198.45662pt x 199.07118pt.
+<chapters/segmentacion/images/5.png, id=283, 649.42625pt x 655.44875pt>
+File: chapters/segmentacion/images/5.png Graphic file (type png)
+<use chapters/segmentacion/images/5.png>
+Package luatex.def Info: chapters/segmentacion/images/5.png  used on input line
+ 107.
+(luatex.def)             Requested size: 198.45662pt x 200.29662pt.
+<chapters/segmentacion/images/6.png, id=284, 650.43pt x 654.445pt>
+File: chapters/segmentacion/images/6.png Graphic file (type png)
+<use chapters/segmentacion/images/6.png>
+Package luatex.def Info: chapters/segmentacion/images/6.png  used on input line
+ 112.
+(luatex.def)             Requested size: 198.45662pt x 199.68033pt.
  [14<./chapters/segmentacion/images/metricas.png><./chapters/segmentacion/images
-/dice.png>]) (./chapters/api/api.tex [15<./chapters/segmentacion/images/mask_tra
-in.png><./chapters/segmentacion/images/mask_pred.png>]
+/dice.png>]) (./chapters/api/api.tex [15<./chapters/segmentacion/images/1.png><.
+/chapters/segmentacion/images/2.png><./chapters/segmentacion/images/3.png><./cha
+pters/segmentacion/images/4.png><./chapters/segmentacion/images/5.png><./chapter
+s/segmentacion/images/6.png>]
 Capítulo 4.
-<chapters/api/images/home.png, id=298, 1003.75pt x 803.0pt>
+<chapters/api/images/home.png, id=306, 1003.75pt x 803.0pt>
 File: chapters/api/images/home.png Graphic file (type png)
 <use chapters/api/images/home.png>
 Package luatex.def Info: chapters/api/images/home.png  used on input line 32.
 (luatex.def)             Requested size: 198.45662pt x 158.75923pt.
-<chapters/api/images/image.png, id=299, 1001.7425pt x 801.99625pt>
+<chapters/api/images/image.png, id=307, 1001.7425pt x 801.99625pt>
 File: chapters/api/images/image.png Graphic file (type png)
 <use chapters/api/images/image.png>
 Package luatex.def Info: chapters/api/images/image.png  used on input line 39.
 (luatex.def)             Requested size: 198.45662pt x 158.87895pt.
-<chapters/api/images/deteccion.png, id=300, 1002.74625pt x 800.9925pt>
+<chapters/api/images/deteccion.png, id=308, 1002.74625pt x 800.9925pt>
 File: chapters/api/images/deteccion.png Graphic file (type png)
 <use chapters/api/images/deteccion.png>
 Package luatex.def Info: chapters/api/images/deteccion.png  used on input line 
 48.
 (luatex.def)             Requested size: 198.45662pt x 158.52122pt.
-<chapters/api/images/segmentacion.png, id=301, 1001.7425pt x 801.99625pt>
+<chapters/api/images/segmentacion.png, id=309, 1001.7425pt x 801.99625pt>
 File: chapters/api/images/segmentacion.png Graphic file (type png)
 <use chapters/api/images/segmentacion.png>
 Package luatex.def Info: chapters/api/images/segmentacion.png  used on input li
@@ -668,13 +682,13 @@ Package rerunfilecheck Info: File `tesis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 11819 strings out of 477785
+ 11867 strings out of 477785
  100000,552014 words of node,token memory allocated
  444 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 54 glue_spec,
  6 attribute_list, 1 write nodes
    avail lists: 2:642,3:232,4:24,5:238,6:65,7:6377,8:45,9:482,10:19,11:557
- 31895 multiletter control sequences out of 65536+600000
+ 31919 multiletter control sequences out of 65536+600000
  37 fonts using 2925695 bytes
  67i,9n,74p,1069b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
@@ -688,9 +702,9 @@ cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 r12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on tesis.pdf (18 pages, 3329913 bytes).
+Output written on tesis.pdf (18 pages, 5113376 bytes).
 
-PDF statistics: 374 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 382 PDF objects out of 1000 (max. 8388607)
  282 compressed objects within 3 object streams
  68 named destinations out of 1000 (max. 131072)
  169 words of extra memory for PDF output out of 10000 (max. 100000000)

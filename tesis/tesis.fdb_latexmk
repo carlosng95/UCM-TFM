@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "tesis.dvi" "tesis.pdf" "tesis" 0
+  "tesis.dvi" 0 -1 0 "latex"
+  (generated)
+  "tesis.pdf"
+["latex"] 0 "tesis.tex" "tesis.dvi" "tesis" 0
+  "tesis.aux" 1708907441 32 3985256e7290058c681f74d7a3565a19 ""
+  "tesis.tex" 0 -1 0 ""
+  (generated)
+  "tesis.dvi"
+  "tesis.log"
