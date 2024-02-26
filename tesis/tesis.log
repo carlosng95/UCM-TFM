@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.6)  25 FEB 2024 21:35
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.6)  26 FEB 2024 02:33
  restricted system commands enabled.
  file:line:error style messages enabled.
 **tesis.tex
@@ -305,31 +305,31 @@ LaTeX Warning: Label `fig.loss' multiply defined.
 )
 \openout1 = tesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-5.
+6.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -357,7 +357,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -371,9 +371,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
  (./tesis.out) (./tesis.out)
 \@outlinefile=\write3
 
@@ -416,7 +416,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 <images/UCM-Logo.png, id=88, 600.3228pt x 678.3744pt>
 File: images/UCM-Logo.png Graphic file (type png)
 <use images/UCM-Logo.png>
-Package luatex.def Info: images/UCM-Logo.png  used on input line 48.
+Package luatex.def Info: images/UCM-Logo.png  used on input line 49.
 (luatex.def)             Requested size: 128.0374pt x 144.67798pt.
 [1
 
@@ -456,13 +456,19 @@ line 30.
 ] [3<./chapters/introduccion/images/normal.jpg><./chapters/introduccion/images/t
 umor.jpg>]) (./chapters/deteccion/deteccion.tex [4]
 Capítulo 2.
-<chapters/deteccion/images/clases.png, id=148, 396.48125pt x 262.9825pt>
+
+Overfull \hbox (33.49855pt too wide) in paragraph at lines 5--6
+\TU/lmr/m/n/12 Link del dataset: https://www.kag-gle.com/datasets/preetvi-radiya
+/brian-tumor-dataset/data 
+ []
+
+<chapters/deteccion/images/clases.png, id=147, 396.48125pt x 262.9825pt>
 File: chapters/deteccion/images/clases.png Graphic file (type png)
 <use chapters/deteccion/images/clases.png>
 Package luatex.def Info: chapters/deteccion/images/clases.png  used on input li
 ne 13.
 (luatex.def)             Requested size: 220.50887pt x 146.26198pt.
-<chapters/deteccion/images/sano1.jpg, id=156, 208.78pt x 242.9075pt>
+<chapters/deteccion/images/sano1.jpg, id=155, 208.78pt x 242.9075pt>
 File: chapters/deteccion/images/sano1.jpg Graphic file (type jpg)
 <use chapters/deteccion/images/sano1.jpg>
 Package luatex.def Info: chapters/deteccion/images/sano1.jpg  used on input lin
@@ -473,7 +479,7 @@ Underfull \hbox (badness 6575) in paragraph at lines 26--26
 []\TU/lmr/m/n/10.95 (a) |Ax-ial T2 flair con
  []
 
-<chapters/deteccion/images/sano2.jpg, id=157, 254.9525pt x 198.7425pt>
+<chapters/deteccion/images/sano2.jpg, id=156, 254.9525pt x 198.7425pt>
 File: chapters/deteccion/images/sano2.jpg Graphic file (type jpg)
 <use chapters/deteccion/images/sano2.jpg>
 Package luatex.def Info: chapters/deteccion/images/sano2.jpg  used on input lin
@@ -484,19 +490,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []\TU/lmr/m/n/10.95 (b) |Sag-i-tal T2 flair.
  []
 
-<chapters/deteccion/images/sano3.jpg, id=158, 236.885pt x 236.885pt>
+<chapters/deteccion/images/sano3.jpg, id=157, 236.885pt x 236.885pt>
 File: chapters/deteccion/images/sano3.jpg Graphic file (type jpg)
 <use chapters/deteccion/images/sano3.jpg>
 Package luatex.def Info: chapters/deteccion/images/sano3.jpg  used on input lin
 e 39.
 (luatex.def)             Requested size: 132.30666pt x 132.3113pt.
-<chapters/deteccion/images/cancer1.png, id=159, 240.9pt x 301.125pt>
+<chapters/deteccion/images/cancer1.png, id=158, 240.9pt x 301.125pt>
 File: chapters/deteccion/images/cancer1.png Graphic file (type png)
 <use chapters/deteccion/images/cancer1.png>
 Package luatex.def Info: chapters/deteccion/images/cancer1.png  used on input l
 ine 48.
 (luatex.def)             Requested size: 132.30666pt x 165.38492pt.
-<chapters/deteccion/images/cancer2.jpg, id=160, 513.92pt x 513.92pt>
+<chapters/deteccion/images/cancer2.jpg, id=159, 513.92pt x 513.92pt>
 File: chapters/deteccion/images/cancer2.jpg Graphic file (type jpg)
 <use chapters/deteccion/images/cancer2.jpg>
 Package luatex.def Info: chapters/deteccion/images/cancer2.jpg  used on input l
@@ -507,7 +513,7 @@ Underfull \hbox (badness 1199) in paragraph at lines 56--56
 []\TU/lmr/m/n/10.95 (e) |Coro-nal T1 con con-
  []
 
-<chapters/deteccion/images/cancer3.jpg, id=161, 513.92pt x 513.92pt>
+<chapters/deteccion/images/cancer3.jpg, id=160, 513.92pt x 513.92pt>
 File: chapters/deteccion/images/cancer3.jpg Graphic file (type jpg)
 <use chapters/deteccion/images/cancer3.jpg>
 Package luatex.def Info: chapters/deteccion/images/cancer3.jpg  used on input l
@@ -516,7 +522,7 @@ ine 62.
 [5
 
 <./chapters/deteccion/images/clases.png>]
-<chapters/deteccion/images/relaciones.png, id=175, 905.3825pt x 380.42125pt>
+<chapters/deteccion/images/relaciones.png, id=174, 905.3825pt x 380.42125pt>
 File: chapters/deteccion/images/relaciones.png Graphic file (type png)
 <use chapters/deteccion/images/relaciones.png>
 Package luatex.def Info: chapters/deteccion/images/relaciones.png  used on inpu
@@ -526,46 +532,46 @@ t line 80.
 ><./chapters/deteccion/images/sano3.jpg><./chapters/deteccion/images/cancer1.png
 ><./chapters/deteccion/images/cancer2.jpg><./chapters/deteccion/images/cancer3.j
 pg>] [7<./chapters/deteccion/images/relaciones.png>]
-<chapters/deteccion/images/naive.png, id=193, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/naive.png, id=192, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/naive.png Graphic file (type png)
 <use chapters/deteccion/images/naive.png>
 Package luatex.def Info: chapters/deteccion/images/naive.png  used on input lin
 e 114.
 (luatex.def)             Requested size: 441.01773pt x 111.74301pt.
-<chapters/deteccion/images/rf.png, id=196, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/rf.png, id=195, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/rf.png Graphic file (type png)
 <use chapters/deteccion/images/rf.png>
 Package luatex.def Info: chapters/deteccion/images/rf.png  used on input line 1
 39.
 (luatex.def)             Requested size: 441.01773pt x 111.74301pt.
  [8<./chapters/deteccion/images/naive.png><./chapters/deteccion/images/rf.png>]
-<chapters/deteccion/images/lr.png, id=210, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/lr.png, id=209, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/lr.png Graphic file (type png)
 <use chapters/deteccion/images/lr.png>
 Package luatex.def Info: chapters/deteccion/images/lr.png  used on input line 1
 67.
 (luatex.def)             Requested size: 441.01773pt x 111.74301pt.
-<chapters/deteccion/images/dt.png, id=213, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/dt.png, id=212, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/dt.png Graphic file (type png)
 <use chapters/deteccion/images/dt.png>
 Package luatex.def Info: chapters/deteccion/images/dt.png  used on input line 1
 93.
 (luatex.def)             Requested size: 441.01773pt x 111.74301pt.
  [9<./chapters/deteccion/images/lr.png><./chapters/deteccion/images/dt.png>]
-<chapters/deteccion/images/knn.png, id=226, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/knn.png, id=225, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/knn.png Graphic file (type png)
 <use chapters/deteccion/images/knn.png>
 Package luatex.def Info: chapters/deteccion/images/knn.png  used on input line 
 220.
 (luatex.def)             Requested size: 441.01773pt x 111.74301pt.
-<chapters/deteccion/images/loss.png, id=229, 1292.83pt x 281.05pt>
+<chapters/deteccion/images/loss.png, id=228, 1292.83pt x 281.05pt>
 File: chapters/deteccion/images/loss.png Graphic file (type png)
 <use chapters/deteccion/images/loss.png>
 Package luatex.def Info: chapters/deteccion/images/loss.png  used on input line
  249.
 (luatex.def)             Requested size: 441.01773pt x 95.87308pt.
  [10<./chapters/deteccion/images/knn.png>]
-<chapters/deteccion/images/cnn_met.png, id=243, 1263.72125pt x 320.19624pt>
+<chapters/deteccion/images/cnn_met.png, id=242, 1263.72125pt x 320.19624pt>
 File: chapters/deteccion/images/cnn_met.png Graphic file (type png)
 <use chapters/deteccion/images/cnn_met.png>
 Package luatex.def Info: chapters/deteccion/images/cnn_met.png  used on input l
@@ -575,65 +581,71 @@ ine 259.
 (./chapters/segmentacion/segmentacion.tex [11<./chapters/deteccion/images/loss.p
 ng><./chapters/deteccion/images/cnn_met.png>]
 Capítulo 3.
-<chapters/segmentacion/images/mask.png, id=256, 262.9825pt x 252.945pt>
+
+Overfull \hbox (20.41855pt too wide) in paragraph at lines 5--6
+\TU/lmr/m/n/12 Link del dataset: https://www.kag-gle.com/datasets/pkdarabi/brain
+-tumor-image-dataset-
+ []
+
+<chapters/segmentacion/images/mask.png, id=254, 262.9825pt x 252.945pt>
 File: chapters/segmentacion/images/mask.png Graphic file (type png)
 <use chapters/segmentacion/images/mask.png>
 Package luatex.def Info: chapters/segmentacion/images/mask.png  used on input l
 ine 16.
-(luatex.def)             Requested size: 132.30666pt x 127.25955pt.
-<chapters/segmentacion/images/unet.png, id=258, 994.71625pt x 659.46375pt>
+(luatex.def)             Requested size: 176.40439pt x 169.67682pt.
+[12
+
+<./chapters/segmentacion/images/mask.png>]
+<chapters/segmentacion/images/unet.png, id=263, 994.71625pt x 659.46375pt>
 File: chapters/segmentacion/images/unet.png Graphic file (type png)
 <use chapters/segmentacion/images/unet.png>
 Package luatex.def Info: chapters/segmentacion/images/unet.png  used on input l
 ine 39.
 (luatex.def)             Requested size: 308.71106pt x 204.66309pt.
-[12
-
-<./chapters/segmentacion/images/mask.png>]
-<chapters/segmentacion/images/metricas.png, id=267, 1076.02pt x 714.67pt>
+<chapters/segmentacion/images/metricas.png, id=265, 1076.02pt x 714.67pt>
 File: chapters/segmentacion/images/metricas.png Graphic file (type png)
 <use chapters/segmentacion/images/metricas.png>
 Package luatex.def Info: chapters/segmentacion/images/metricas.png  used on inp
 ut line 61.
 (luatex.def)             Requested size: 352.81552pt x 234.32603pt.
  [13<./chapters/segmentacion/images/unet.png>]
-<chapters/segmentacion/images/dice.png, id=277, 1076.02pt x 357.335pt>
+<chapters/segmentacion/images/dice.png, id=275, 1076.02pt x 357.335pt>
 File: chapters/segmentacion/images/dice.png Graphic file (type png)
 <use chapters/segmentacion/images/dice.png>
 Package luatex.def Info: chapters/segmentacion/images/dice.png  used on input l
 ine 73.
 (luatex.def)             Requested size: 396.91325pt x 131.8084pt.
-<chapters/segmentacion/images/1.png, id=279, 652.4375pt x 655.44875pt>
+<chapters/segmentacion/images/1.png, id=277, 652.4375pt x 655.44875pt>
 File: chapters/segmentacion/images/1.png Graphic file (type png)
 <use chapters/segmentacion/images/1.png>
 Package luatex.def Info: chapters/segmentacion/images/1.png  used on input line
  85.
 (luatex.def)             Requested size: 198.45662pt x 199.3765pt.
-<chapters/segmentacion/images/2.png, id=280, 650.43pt x 654.445pt>
+<chapters/segmentacion/images/2.png, id=278, 650.43pt x 654.445pt>
 File: chapters/segmentacion/images/2.png Graphic file (type png)
 <use chapters/segmentacion/images/2.png>
 Package luatex.def Info: chapters/segmentacion/images/2.png  used on input line
  90.
 (luatex.def)             Requested size: 198.45662pt x 199.68033pt.
-<chapters/segmentacion/images/3.png, id=281, 649.42625pt x 653.44125pt>
+<chapters/segmentacion/images/3.png, id=279, 649.42625pt x 653.44125pt>
 File: chapters/segmentacion/images/3.png Graphic file (type png)
 <use chapters/segmentacion/images/3.png>
 Package luatex.def Info: chapters/segmentacion/images/3.png  used on input line
  96.
 (luatex.def)             Requested size: 198.45662pt x 199.68315pt.
-<chapters/segmentacion/images/4.png, id=282, 652.4375pt x 654.445pt>
+<chapters/segmentacion/images/4.png, id=280, 652.4375pt x 654.445pt>
 File: chapters/segmentacion/images/4.png Graphic file (type png)
 <use chapters/segmentacion/images/4.png>
 Package luatex.def Info: chapters/segmentacion/images/4.png  used on input line
  101.
 (luatex.def)             Requested size: 198.45662pt x 199.07118pt.
-<chapters/segmentacion/images/5.png, id=283, 649.42625pt x 655.44875pt>
+<chapters/segmentacion/images/5.png, id=281, 649.42625pt x 655.44875pt>
 File: chapters/segmentacion/images/5.png Graphic file (type png)
 <use chapters/segmentacion/images/5.png>
 Package luatex.def Info: chapters/segmentacion/images/5.png  used on input line
  107.
 (luatex.def)             Requested size: 198.45662pt x 200.29662pt.
-<chapters/segmentacion/images/6.png, id=284, 650.43pt x 654.445pt>
+<chapters/segmentacion/images/6.png, id=282, 650.43pt x 654.445pt>
 File: chapters/segmentacion/images/6.png Graphic file (type png)
 <use chapters/segmentacion/images/6.png>
 Package luatex.def Info: chapters/segmentacion/images/6.png  used on input line
@@ -645,23 +657,23 @@ Package luatex.def Info: chapters/segmentacion/images/6.png  used on input line
 pters/segmentacion/images/4.png><./chapters/segmentacion/images/5.png><./chapter
 s/segmentacion/images/6.png>]
 Capítulo 4.
-<chapters/api/images/home.png, id=306, 1003.75pt x 803.0pt>
+<chapters/api/images/home.png, id=303, 1003.75pt x 803.0pt>
 File: chapters/api/images/home.png Graphic file (type png)
 <use chapters/api/images/home.png>
 Package luatex.def Info: chapters/api/images/home.png  used on input line 32.
 (luatex.def)             Requested size: 198.45662pt x 158.75923pt.
-<chapters/api/images/image.png, id=307, 1001.7425pt x 801.99625pt>
+<chapters/api/images/image.png, id=304, 1001.7425pt x 801.99625pt>
 File: chapters/api/images/image.png Graphic file (type png)
 <use chapters/api/images/image.png>
 Package luatex.def Info: chapters/api/images/image.png  used on input line 39.
 (luatex.def)             Requested size: 198.45662pt x 158.87895pt.
-<chapters/api/images/deteccion.png, id=308, 1002.74625pt x 800.9925pt>
+<chapters/api/images/deteccion.png, id=305, 1002.74625pt x 800.9925pt>
 File: chapters/api/images/deteccion.png Graphic file (type png)
 <use chapters/api/images/deteccion.png>
 Package luatex.def Info: chapters/api/images/deteccion.png  used on input line 
 48.
 (luatex.def)             Requested size: 198.45662pt x 158.52122pt.
-<chapters/api/images/segmentacion.png, id=309, 1001.7425pt x 801.99625pt>
+<chapters/api/images/segmentacion.png, id=306, 1001.7425pt x 801.99625pt>
 File: chapters/api/images/segmentacion.png Graphic file (type png)
 <use chapters/api/images/segmentacion.png>
 Package luatex.def Info: chapters/api/images/segmentacion.png  used on input li
@@ -702,10 +714,10 @@ cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 r12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on tesis.pdf (18 pages, 5113376 bytes).
+Output written on tesis.pdf (18 pages, 5114284 bytes).
 
-PDF statistics: 382 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
+PDF statistics: 380 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
  68 named destinations out of 1000 (max. 131072)
  169 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -6,18 +6,18 @@ Habiendo desarrollado y validado los modelos de detección y segmentación de tu
 
 \begin{itemize}
 
-\item construcción de API para detección
-\item construcción de API para segmentación
-\item construcción de front end sencillo
+\item construcción de API para detección,
+\item construcción de API para segmentación,
+\item construcción de front end sencillo,
 \item dockerización.
 \end{itemize}
 
 El flujo de información sería el siguiente:
 
 \begin{enumerate}
-    \item se carga una imagen 
-    \item la imagen se guarda y se da la opción de cargar otra o procesarla con el primer modelo para detectar un tumor
-    \item si el tumor es detectado, se informa y se da la opción de aplicar el modelo de segmentación, mostrando la imagen con la máscara predicha
+    \item se carga una imagen,
+    \item la imagen se guarda y se da la opción de cargar otra o procesarla con el primer modelo para detectar un tumor,
+    \item si el tumor es detectado, se informa y se da la opción de aplicar el modelo de segmentación, mostrando la imagen con la máscara predicha,
     \item si el tumor no es detectado y se solicita su segmentación, se informa que no hay tumor a segmentar.
 \end{enumerate}
 
@@ -66,5 +66,9 @@ Como conclusiones finales, se logró desarrollar un modelo de detección de tumo
 Se desarrolló también un modelo de segmentación de tumores, es decir, no únicamente detectar la presencia de tumores sino determinar la ubicación de los mismos. Se lo evaluó descartando overfitting y presentó buenas métricas.
 
 Finalmente se desarrolló una API junto con un front end con el objetivo de poner en producción ambos modelos sumado a la visualización por parte del usuario. 
+
+Como trabajo a futuro podría considerarse agregar un label más al target que identifique el tipo de imagen. Por ejemplo, en algunos casos el modelo segmentó como tumor a los ventrículos laterales en imágenes potenciadas en $T_2$, al ser el líquido brillante en estas imágenes, el algoritmo posiblemente los confundió con tumores en imagenes $T_1$ con contraste, donde también el tumor se ve brillante. 
+
+Podría considerarse también aplicar data augmentation sobre la segmentación tumoral, pero no es tan sencillo porque no solo habría que realizar transformaciones sobre las imágenes usadas para entrenar, sino que la máscara target debería sufrir las mismas transformaciones.
 
 

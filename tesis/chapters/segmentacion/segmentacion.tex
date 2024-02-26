@@ -2,9 +2,9 @@
 
 \chapter{Segmentación de tumores}
 
-\section{Descripción del dataset}
+Link del dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation
 
-\href{https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation} {Link} del dataset. 
+\section{Descripción del dataset}
 
 Este dataset contiene 2146 imágenes con sus respectivas máscaras y está subdivivido en conjuntos de entrenamiento (1502 archivos), validación (429 archivos) y test (215).
 
@@ -13,7 +13,7 @@ Este dataset contiene 2146 imágenes con sus respectivas máscaras y está subdi
  
 \begin{figure}[H]
 \centering
-        \includegraphics[width=0.3\linewidth]{chapters/segmentacion/images/mask.png}
+        \includegraphics[width=0.4\linewidth]{chapters/segmentacion/images/mask.png}
         \caption{Imagen junto con la máscara indicando el tumor.}
         \label{fig.mask}
   \end{figure}
@@ -43,7 +43,7 @@ Como modelo de segmentación se utilizó la red ampliamente utilizada UNET, cuya
 
 Esta arquitectura consta de un bloque de cuatro encoders, un bloque convolucional y un bloque de cuatro decoders. 
 
-El optimizador utilizado fue $\textit{adam}$, la función de pérdida $\textit{dice loss}$ tomando como métrica $\textit{dice coefficient}$. Se entrenó la red con un $\textit{batch size}$ de 10, $\textit{validation split}$ de 0.2 y con 100 $\textit{epochs}$. Se implementó un callback de EarlyStopping. 
+El optimizador utilizado fue $\textit{adam}$, la función de pérdida $\textit{Dice loss}$ tomando como métrica $\textit{Dice coefficient}$. Se entrenó la red con un $\textit{batch size}$ de 10, $\textit{validation split}$ de 0.2 y con 100 $\textit{epochs}$. Se implementó un callback de EarlyStopping. 
 
 Dado que el target de este modelo es una máscara, una imagen, tenía más sentido tomar como función de pérdida el coeficiente de Dice, el cual se define como:
 
